@@ -1,7 +1,7 @@
 [{
   "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
   "name": "Rigby",
-  "status": "Park worker",
+  "role": "Park worker",
   "species": "species",
   "gender": "male",
   "image": "https://static.wikia.nocookie.net/regularshow/images/b/b3/Rigby_imagen.webp/revision/latest?cb=20230620054255&path-prefix=es",
@@ -14,7 +14,7 @@
 {
   "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
   "name": "Mordecai",
-  "status": "Park worker",
+  "role": "Park worker",
   "species": "species",
   "gender": "male",
   "image": "https://static.wikia.nocookie.net/regularshow/images/b/bb/Mordecai%3B_Si%2C_que_Si.png/revision/latest?cb=20130814021534&path-prefix=es",
@@ -27,7 +27,7 @@
 {
   "id": "c8a7d63f-3b04-44d3-9d95-8782fdsdcfaf",
   "name": "Margaret",
-  "status": "Cafe worker",
+  "role": "Cafe worker",
   "species": "species",
   "gender": "female",
   "image": "https://static.wikia.nocookie.net/regularshow/images/8/8c/Personaje_Principal_-_Margarita_03.png/revision/latest?cb=20150628012315&path-prefix=es",
@@ -40,7 +40,7 @@
 {
   "id": "c8a7d63f-3b04-44d3-9d42-8782fdsdcfaf",
   "name": "Eileen",
-  "status": "Cafe worker",
+  "role": "Cafe worker",
   "species": "species",
   "gender": "female",
   "image": "https://static.wikia.nocookie.net/regularshow/images/8/8c/Personaje_Principal_-_Margarita_03.png/revision/latest?cb=20150628012315&path-prefix=es",
@@ -53,7 +53,7 @@
 {
   "id": "5ad1a235-0d9c-410a-b32b-220d91689a08",
   "name": "Benson",
-  "status": "Park worker",
+  "role": "Park worker",
   "species": "species",
   "gender": "male",
   "image": "https://static.wikia.nocookie.net/regularshow/images/8/8e/Santo_Cielo.png/revision/latest?cb=20130814021917&path-prefix=es",
@@ -66,7 +66,7 @@
 {
   "id": "241bf55d-b649-4109-af7c-0e6890ded3fc",
   "name": "Skips",
-  "status": "Park worker",
+  "role": "Park worker",
   "species": "species",
   "gender": "male",
   "image": "https://static.wikia.nocookie.net/regularshow/images/f/fb/Skipf1514_%281%29.png/revision/latest?cb=20130814022910&path-prefix=es",
@@ -79,7 +79,7 @@
 {
   "id": "9e6106f0-848b-4810-a11a-3d832a5610f9",
   "name": "Fives",
-  "status": "Park worker",
+  "role": "Park worker",
   "species": "species",
   "gender": "male",
   "image": "https://static.wikia.nocookie.net/regularshow/images/a/a8/Fantasmano_dispara_todas_las_chelas_by_kol98-d5l7tf8.png/revision/latest?cb=20130615230851&path-prefix=es",
@@ -92,7 +92,7 @@
 {
   "id": "7e3fd5ab-60ff-4ae2-92b6-9597f0308d1",
   "name": "Muscleman",
-  "status": "Park worker",
+  "role": "Park worker",
   "species": "species",
   "gender": "male",
   "image": "https://static.wikia.nocookie.net/regularshow/images/7/74/Musculoso_esta_feliz_xd.png/revision/latest?cb=20130814023440&path-prefix=es",

@@ -13,14 +13,14 @@ POST http://localhost:3001/characters
 Content-Type: application/json
 
 {
-    "name": "Sad Saxo",
-    "status": "Alive",
-    "species": "Human",
-    "gender": "Male",
-    "image": "https://i1.sndcdn.com/artworks-xuZBNOZcJsJxnTI3-SxBG9Q-t500x500.jpg",
-    "episode": ["url_to_episode"],
-    "location": {
-        "name": "Streets",
-        "url": "url_to_location_endpoint"
-    }
+  "name": "george",
+  "role": "Park worker",
+  "species": "human",
+  "gender": "male",
+  "image": "https://static.wikia.nocookie.net/regularshow/images/b/b3/Rigby_imagen.webp/revision/latest?cb=20230620054255&path-prefix=es",
+  "episode": ["https://endpoint.dev/episode"],
+  "location": {
+    "name": "Park",
+    "url": "http://endpoint.dev/location"
+  }
 }

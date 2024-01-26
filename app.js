@@ -1,7 +1,8 @@
 const express = require("express");
 const crypto = require("node:crypto");
-
+const { validateCharacter } = require("./schemas/character");
 const characters = require("./characters.json");
+
 const app = express();
 const PORT = process.env.PORT ?? 3001;
 
@@ -27,16 +28,15 @@ app.get("/characters/:id", (req, res) => {
 });
 
 app.post("/characters", (req, res) => {
-  const { name, status, species, gender, image, episode, location } = req.body;
+  const result = validateCharacter(req.body);
+
+  if (!result.success) {
+    return res.status(400).json(JSON.parse(result.error.message));
+  }
+
   const newCharacter = {
-    id: crypto.randomUUID,
-    name,
-    species,
-    status,
-    gender,
-    image,
-    episode,
-    location,
+    id: crypto.randomUUID(),
+    ...result.data,
   };
 
   characters.unshift(newCharacter);
