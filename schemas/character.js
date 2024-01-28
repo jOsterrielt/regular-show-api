@@ -1,4 +1,4 @@
-const z = require("zod");
+import z from "zod";
 
 const characterSchema = z.object({
   name: z.string({
@@ -26,8 +26,6 @@ const characterSchema = z.object({
     .optional(),
 });
 
-function validateCharacter(object) {
+export default function validateCharacter(object) {
   return characterSchema.safeParse(object);
 }
-
-module.exports = { validateCharacter };

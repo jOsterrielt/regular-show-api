@@ -1,14 +1,15 @@
-const express = require("express");
-const crypto = require("node:crypto");
-const { validateCharacter } = require("./schemas/character");
-const characters = require("./characters.json");
-const cors = require("cors");
+import express, { json } from "express";
+import { randomUUID } from "node:crypto";
+import validateCharacter from "./schemas/character.js";
+import cors from "cors";
+import fs from "node:fs";
 
+const characters = JSON.parse(fs.readFileSync("./characters.json", "utf-8"));
 const app = express();
 const PORT = process.env.PORT ?? 3001;
 
 app.disable("x-powered-by");
-app.use(express.json());
+app.use(json());
 app.use(cors());
 
 app.get("/characters", (req, res) => {
@@ -37,7 +38,7 @@ app.post("/characters", (req, res) => {
   }
 
   const newCharacter = {
-    id: crypto.randomUUID(),
+    id: randomUUID(),
     ...result.data,
   };
 
@@ -50,4 +51,4 @@ app.listen(PORT, () => {
   console.log(`server listening on http://localhost:${PORT}`);
 });
 
-module.exports = { app };
+export default { app };
