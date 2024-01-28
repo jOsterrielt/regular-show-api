@@ -2,12 +2,14 @@ const express = require("express");
 const crypto = require("node:crypto");
 const { validateCharacter } = require("./schemas/character");
 const characters = require("./characters.json");
+const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT ?? 3001;
 
 app.disable("x-powered-by");
 app.use(express.json());
+app.use(cors());
 
 app.get("/characters", (req, res) => {
   const { gender } = req.query;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and morty API</title>
+    <style>
+      img {
+        width: 400px;
+        height: auto;
+      }
+    </style>
+    <script type="module">
+      fetch("http://localhost:3001/characters")
+        .then((response) => response.json())
+        .then((characters) => {
+          const html = characters
+            .map((character) => {
+              return `
+            <article data-id="${character.id}">
+              <h2>${character.name}</h2>
+              <img src="${character.image}" alt="${character.name}">
+              <p>${character.gender}</p>
+              <p>${character.role}</p>
+              <p>${character.location.name}</p>
+            </article>
+          `;
+            })
+            .join("");
+
+          document.querySelector("main").innerHTML = html;
+        });
+    </script>
+  </head>
+  <body>
+    <main></main>
+  </body>
+</html>

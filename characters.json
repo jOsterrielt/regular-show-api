@@ -4,7 +4,7 @@
   "role": "Park worker",
   "species": "species",
   "gender": "male",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/b/b3/Rigby_imagen.webp/revision/latest?cb=20230620054255&path-prefix=es",
+  "image": "https://i.pinimg.com/736x/c0/0c/eb/c00ceb0af3a9eeb96ab998dc7f9bf497.jpg",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -17,7 +17,7 @@
   "role": "Park worker",
   "species": "species",
   "gender": "male",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/b/bb/Mordecai%3B_Si%2C_que_Si.png/revision/latest?cb=20130814021534&path-prefix=es",
+  "image": "https://i.pinimg.com/474x/34/85/94/348594ca1f208ec68777e1c83999888b.jpg",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -30,7 +30,7 @@
   "role": "Cafe worker",
   "species": "species",
   "gender": "female",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/8/8c/Personaje_Principal_-_Margarita_03.png/revision/latest?cb=20150628012315&path-prefix=es",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzX5udC5brfRW2W0mGkWMfW6yjI4XCO24XPQ&usqp=CAU",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -43,7 +43,7 @@
   "role": "Cafe worker",
   "species": "species",
   "gender": "female",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/8/8c/Personaje_Principal_-_Margarita_03.png/revision/latest?cb=20150628012315&path-prefix=es",
+  "image": "https://i.pinimg.com/originals/63/2a/24/632a2461d7b05aa9ade7f375697c0255.jpg",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -56,7 +56,7 @@
   "role": "Park worker",
   "species": "species",
   "gender": "male",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/8/8e/Santo_Cielo.png/revision/latest?cb=20130814021917&path-prefix=es",
+  "image": "https://i.pinimg.com/736x/b8/2a/f6/b82af633175b9ef3696e404cdaa3c171.jpg",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -69,7 +69,7 @@
   "role": "Park worker",
   "species": "species",
   "gender": "male",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/f/fb/Skipf1514_%281%29.png/revision/latest?cb=20130814022910&path-prefix=es",
+  "image": "https://i.pinimg.com/originals/b7/e9/7f/b7e97f29e957d5d1c132c423bcc19f77.png",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -82,7 +82,7 @@
   "role": "Park worker",
   "species": "species",
   "gender": "male",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/a/a8/Fantasmano_dispara_todas_las_chelas_by_kol98-d5l7tf8.png/revision/latest?cb=20130615230851&path-prefix=es",
+  "image": "https://i.pinimg.com/originals/90/cc/26/90cc26a4eb0187ef6136412333440ba0.jpg",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
@@ -95,7 +95,7 @@
   "role": "Park worker",
   "species": "species",
   "gender": "male",
-  "image": "https://static.wikia.nocookie.net/regularshow/images/7/74/Musculoso_esta_feliz_xd.png/revision/latest?cb=20130814023440&path-prefix=es",
+  "image": "https://i.pinimg.com/originals/ab/91/e5/ab91e5a64e0c6ea75c5c5e99ff8f907e.png",
   "episode": ["url_to_episode_endpoint"],
   "location": {
     "name": "Park",
